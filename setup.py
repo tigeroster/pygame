@@ -40,6 +40,7 @@ METADATA = {
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
@@ -61,6 +62,7 @@ METADATA = {
         "Operating System :: POSIX",
         "Operating System :: Unix",
         "Operating System :: MacOS",
+        "Operating System :: Linux"
     ],
     "python_requires": '>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
 }
@@ -102,7 +104,7 @@ def compilation_help():
         'Windows': 'https://www.pygame.org/wiki/CompileWindows',
         'Darwin': 'https://www.pygame.org/wiki/MacCompile',
         'RedHat': 'https://www.pygame.org/wiki/CompileRedHat',
-        # TODO There is nothing in the following pages yet
+        # TODO There's nothing in the following pages yet.
         'Suse': 'https://www.pygame.org/wiki/CompileSuse',
         'Python (from pypy.org)': 'https://www.pygame.org/wiki/CompilePyPy',
         'Free BSD': 'https://www.pygame.org/wiki/CompileFreeBSD',
